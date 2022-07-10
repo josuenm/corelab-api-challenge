@@ -9,6 +9,7 @@ const vehicleSchema = new mongoose.Schema({
     year: Number,
     color: String,
     price: Number,
+    brand: String,
     author: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User',
